@@ -21,11 +21,11 @@ namespace InterfaceExercise
         public string logo { get; set; } = "Cadillac Symbol";
         public string motto { get; set; } = "People in motion";
 
-        public void DisplayInformation()
+        public void DisplayInformation()//ICompany stubbed out method.
         {
             Console.WriteLine($"The {companyName} corporation has allegedly spent {numberOfYearsAsATopTen} or more years as a top ten auto manufacturer, commercially displaying their {logo} and they go by the '{motto}' motto. Their {year} {model} {isAllWheelDrive}ly does feature an all-wheel drive functionality, and it {hasAdaptiveCruiseControl}ly has its own adaptive cruise control. It sports {numberOfWheels} different wheels, but it comes equipped with {numberOfSeats} total seats, accepts a {typeOfFuel} gasoline type, and it even comes with {numberOfDoors} doors.");
             Console.WriteLine();
-            //Console.WriteLine($"Currenrtly, this {year}{companyName}{model} ");
+            //Console.WriteLine($"Currently, this {year}{companyName}{model} ");
         }
 
         public void Drive()//IVehicle stubbed out methods.

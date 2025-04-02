@@ -21,7 +21,7 @@ namespace InterfaceExercise
         public string logo { get; set; } = "Honda Symbol";
         public string motto { get; set; } = "The Power of Dreams";
 
-        public void DisplayInformation()
+        public void DisplayInformation()//ICompany stubbed out method.
         {
             Console.WriteLine($"The {companyName} corporation has allegedly spent {numberOfYearsAsATopTen} or more years as a top ten auto manufacturer, commercially displaying their {logo} and they go by the '{motto}' motto. Their {year} {model}'s sun roof {hasSunRoof}ly is awesome to open up and wave your hand through whilst driving down the highway in the summertime, and its non manual stick shift driving {isStickShift}ly makes it a sweet ride to show off. It sports {numberOfWheels} different wheels, but it comes equipped with {numberOfSeats} total seats, accepts a {typeOfFuel} gasoline type, and it even comes with {numberOfDoors} doors.");
             Console.WriteLine();
@@ -29,7 +29,7 @@ namespace InterfaceExercise
 
         //Console.WriteLine();
 
-        public void Drive()//IVehicle properties
+        public void Drive()//IVehicle stubbed out methods.
         {
             if (hasSunRoof == true && isStickShift == false)
             {
